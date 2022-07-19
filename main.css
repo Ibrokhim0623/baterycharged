@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(to right, #1fa2ff, hsl(189, 96%, 53%), #a6f);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card{
+    width: 350px;
+    height: 450px;
+    background-color: #f3f3f3b5;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    margin: 40px auto;
+}
+
+.battery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.batteryBorder{
+    border: 3px solid #000;
+    width: 180px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.presentBattery{
+    position: absolute;
+    width: 40%;
+    top: 4px;
+    right: 4px;
+    bottom: 4px;
+    left: 4px;
+    background: linear-gradient(to left, #626474, #004e92);
+    border-radius: 5px;
+}
+.precent{
+    margin-top: 40px;
+}
+.precent, p{
+    font-size: 25px;
+    font-weight: 700;
+}
